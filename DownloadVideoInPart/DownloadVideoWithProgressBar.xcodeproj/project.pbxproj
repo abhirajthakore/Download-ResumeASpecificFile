@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD8B0F949516A9D693C82533 /* Pods_DownloadVideoWithProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E52D774C6FD41DFF6CC5E3 /* Pods_DownloadVideoWithProgressBar.framework */; };
+		D71786461F34535400116D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71786451F34535400116D25 /* AppDelegate.swift */; };
+		D717864B1F34535400116D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71786491F34535400116D25 /* Main.storyboard */; };
+		D717864D1F34535400116D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D717864C1F34535400116D25 /* Assets.xcassets */; };
+		D71786501F34535400116D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D717864E1F34535400116D25 /* LaunchScreen.storyboard */; };
+		D71786581F347C2600116D25 /* PlaceholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D71786571F347C2600116D25 /* PlaceholderImage.jpg */; };
+		D739F94620A032B6006A96EA /* DownloadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D739F94520A032B6006A96EA /* DownloadVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30E52D774C6FD41DFF6CC5E3 /* Pods_DownloadVideoWithProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadVideoWithProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D00513CFA23A6DBC8CC8E53 /* Pods-DownloadVideoWithProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadVideoWithProgressBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadVideoWithProgressBar/Pods-DownloadVideoWithProgressBar.debug.xcconfig"; sourceTree = "<group>"; };
+		B0BEC3642DD20AF2CAD9A0EE /* Pods-DownloadVideoWithProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadVideoWithProgressBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadVideoWithProgressBar/Pods-DownloadVideoWithProgressBar.release.xcconfig"; sourceTree = "<group>"; };
+		D71786421F34535300116D25 /* DownloadVideoWithProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadVideoWithProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71786451F34535400116D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D717864A1F34535400116D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D717864C1F34535400116D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D717864F1F34535400116D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D71786511F34535400116D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71786571F347C2600116D25 /* PlaceholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PlaceholderImage.jpg; sourceTree = "<group>"; };
+		D739F94520A032B6006A96EA /* DownloadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D717863F1F34534100116D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8B0F949516A9D693C82533 /* Pods_DownloadVideoWithProgressBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A7E3D509E3EE8A72AACBA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D00513CFA23A6DBC8CC8E53 /* Pods-DownloadVideoWithProgressBar.debug.xcconfig */,
+				B0BEC3642DD20AF2CAD9A0EE /* Pods-DownloadVideoWithProgressBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0FA7B39DB82809ADE54828B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E52D774C6FD41DFF6CC5E3 /* Pods_DownloadVideoWithProgressBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D71786391F34534100116D25 = {
+			isa = PBXGroup;
+			children = (
+				D71786441F34535300116D25 /* DownloadVideoWithProgressBar */,
+				D71786431F34535300116D25 /* Products */,
+				A6A7E3D509E3EE8A72AACBA4 /* Pods */,
+				B0FA7B39DB82809ADE54828B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D71786431F34535300116D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71786421F34535300116D25 /* DownloadVideoWithProgressBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71786441F34535300116D25 /* DownloadVideoWithProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				D71786451F34535400116D25 /* AppDelegate.swift */,
+				D739F94520A032B6006A96EA /* DownloadVC.swift */,
+				D71786491F34535400116D25 /* Main.storyboard */,
+				D717864C1F34535400116D25 /* Assets.xcassets */,
+				D717864E1F34535400116D25 /* LaunchScreen.storyboard */,
+				D71786571F347C2600116D25 /* PlaceholderImage.jpg */,
+				D71786511F34535400116D25 /* Info.plist */,
+			);
+			path = DownloadVideoWithProgressBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71786411F34534100116D25 /* DownloadVideoWithProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71786541F34535400116D25 /* Build configuration list for PBXNativeTarget "DownloadVideoWithProgressBar" */;
+			buildPhases = (
+				54E17B331A05584AFA632CF8 /* [CP] Check Pods Manifest.lock */,
+				D717863E1F34534100116D25 /* Sources */,
+				D717863F1F34534100116D25 /* Frameworks */,
+				D71786401F34534100116D25 /* Resources */,
+				567475A3CF503A6495393DE7 /* [CP] Embed Pods Frameworks */,
+				653DEBC19756B33258697D38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadVideoWithProgressBar;
+			productName = DownloadVideoWithProgressBar;
+			productReference = D71786421F34535300116D25 /* DownloadVideoWithProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D717863A1F34534100116D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Abhirajsinh;
+				TargetAttributes = {
+					D71786411F34534100116D25 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4D7WM9KH8K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D717863D1F34534100116D25 /* Build configuration list for PBXProject "DownloadVideoWithProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71786391F34534100116D25;
+			productRefGroup = D71786431F34535300116D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71786411F34534100116D25 /* DownloadVideoWithProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71786401F34534100116D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71786501F34535400116D25 /* LaunchScreen.storyboard in Resources */,
+				D71786581F347C2600116D25 /* PlaceholderImage.jpg in Resources */,
+				D717864D1F34535400116D25 /* Assets.xcassets in Resources */,
+				D717864B1F34535400116D25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54E17B331A05584AFA632CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownloadVideoWithProgressBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567475A3CF503A6495393DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DownloadVideoWithProgressBar/Pods-DownloadVideoWithProgressBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadVideoWithProgressBar/Pods-DownloadVideoWithProgressBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653DEBC19756B33258697D38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadVideoWithProgressBar/Pods-DownloadVideoWithProgressBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D717863E1F34534100116D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D739F94620A032B6006A96EA /* DownloadVC.swift in Sources */,
+				D71786461F34535400116D25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D71786491F34535400116D25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D717864A1F34535400116D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D717864E1F34535400116D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D717864F1F34535400116D25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71786521F34535400116D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D71786531F34535400116D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D71786551F34535400116D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D00513CFA23A6DBC8CC8E53 /* Pods-DownloadVideoWithProgressBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
+				INFOPLIST_FILE = DownloadVideoWithProgressBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.DownloadVideoWithProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D71786561F34535400116D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0BEC3642DD20AF2CAD9A0EE /* Pods-DownloadVideoWithProgressBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sufalam Technologies Private Ltd. (4D7WM9KH8K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4D7WM9KH8K;
+				INFOPLIST_FILE = DownloadVideoWithProgressBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.DownloadVideoWithProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D717863D1F34534100116D25 /* Build configuration list for PBXProject "DownloadVideoWithProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71786521F34535400116D25 /* Debug */,
+				D71786531F34535400116D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71786541F34535400116D25 /* Build configuration list for PBXNativeTarget "DownloadVideoWithProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71786551F34535400116D25 /* Debug */,
+				D71786561F34535400116D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D717863A1F34534100116D25 /* Project object */;
+}
